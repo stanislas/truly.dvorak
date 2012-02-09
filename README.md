@@ -7,7 +7,7 @@ A [Ukulele][ukulele] Dvorak layout to use on Mac OS X with the
 It does the following:
 
 * Put the 'z' back on the right pinky down
-* Put all the special symbols like the brackets, etc as on the TrulyErgonomic
+* Put all the special symbols like the brackets, etc as they are labelled on the TrulyErgonomic
 Keyboard.
 
 
