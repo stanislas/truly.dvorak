@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.1.10 on 2012-09-30 at 23:13 (GMT+02:00)-->
-<!--Last edited by Ukelele version 2.2.8 on 2014-10-23 at 12:26 (CEST)-->
-<keyboard group="0" id="16304" name="macwork" maxout="1">
+<!--Last edited by Ukelele version 2.2.8 on 2014-10-23 at 12:31 (CEST)-->
+<keyboard group="0" id="16305" name="twork" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="f4" mapSet="a14"/>
         <layout first="18" last="18" modifiers="f4" mapSet="1fc"/>
@@ -141,13 +141,13 @@
             <key code="30" output="]"/>
             <key code="31" output="p"/>
             <key code="32" output="f"/>
-            <key code="33" output="\"/>
+            <key code="33" output="["/>
             <key code="34" action="u"/>
             <key code="35" output=";"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="18"/>
             <key code="38" action="n"/>
-            <key code="39" output="&#x0027;"/>
+            <key code="39" output="/"/>
             <key code="40" action="e"/>
             <key code="41" action="i"/>
             <key code="42" output="\"/>
@@ -253,13 +253,13 @@
             <key code="30" output="}"/>
             <key code="31" output="P"/>
             <key code="32" output="F"/>
-            <key code="33" output="|"/>
+            <key code="33" output="{"/>
             <key code="34" output="U"/>
             <key code="35" output=":"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="17"/>
             <key code="38" output="N"/>
-            <key code="39" output="&#x0022;"/>
+            <key code="39" output="?"/>
             <key code="40" output="E"/>
             <key code="41" output="I"/>
             <key code="42" output="|"/>
