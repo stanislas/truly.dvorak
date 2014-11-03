@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-11-14 at 23:07 (EST)-->
-<!--Last edited by Ukelele version 2.2.8 on 2014-11-02 at 17:09 (CET)-->
+<!--Last edited by Ukelele version 2.2.8 on 2014-11-03 at 15:13 (CET)-->
 <keyboard group="0" id="14776" name="Workman Stan Dead" maxout="3">
     <layouts>
         <layout first="0" last="17" modifiers="f4" mapSet="984"/>
@@ -143,18 +143,18 @@
             <key code="15" action="71"/>
             <key code="16" action="45"/>
             <key code="17" action="29"/>
-            <key code="18" output="!"/>
+            <key code="18" output="1"/>
             <key code="19" action="79"/>
             <key code="20" action="81"/>
-            <key code="21" output="$"/>
+            <key code="21" output="4"/>
             <key code="22" action="85"/>
             <key code="23" action="83"/>
             <key code="24" output="="/>
-            <key code="25" output="("/>
+            <key code="25" output="9"/>
             <key code="26" action="86"/>
             <key code="27" output="-"/>
             <key code="28" action="88"/>
-            <key code="29" output=")"/>
+            <key code="29" output="0"/>
             <key code="30" output="]"/>
             <key code="31" action="57"/>
             <key code="32" action="37"/>
@@ -255,18 +255,18 @@
             <key code="15" action="70"/>
             <key code="16" action="44"/>
             <key code="17" action="28"/>
-            <key code="18" output="1"/>
+            <key code="18" output="!"/>
             <key code="19" action="78"/>
             <key code="20" action="80"/>
-            <key code="21" output="4"/>
+            <key code="21" output="$"/>
             <key code="22" action="84"/>
             <key code="23" action="82"/>
             <key code="24" output="+"/>
-            <key code="25" output="9"/>
+            <key code="25" output="("/>
             <key code="26" action="100"/>
             <key code="27" output="_"/>
             <key code="28" action="87"/>
-            <key code="29" output="0"/>
+            <key code="29" output=")"/>
             <key code="30" output="}"/>
             <key code="31" action="56"/>
             <key code="32" action="36"/>
@@ -1789,47 +1789,47 @@
             <when state="State 8" output="z̧"/>
         </action>
         <action id="78">
-            <when state="none" output="2"/>
+            <when state="none" output="@"/>
             <when state="State 4" output="Ƨ"/>
         </action>
         <action id="79">
-            <when state="none" output="@"/>
+            <when state="none" output="2"/>
             <when state="State 4" output="ƨ"/>
         </action>
         <action id="80">
-            <when state="none" output="3"/>
+            <when state="none" output="#"/>
             <when state="State 4" output="Ɛ"/>
         </action>
         <action id="81">
-            <when state="none" output="#"/>
+            <when state="none" output="3"/>
             <when state="State 4" output="ɛ"/>
         </action>
         <action id="82">
-            <when state="none" output="5"/>
+            <when state="none" output="%"/>
             <when state="State 4" output="Ƽ"/>
         </action>
         <action id="83">
-            <when state="none" output="%"/>
+            <when state="none" output="5"/>
             <when state="State 4" output="ƽ"/>
         </action>
         <action id="84">
-            <when state="none" output="6"/>
+            <when state="none" output="^"/>
             <when state="State 4" output="Ƅ"/>
         </action>
         <action id="85">
-            <when state="none" output="^"/>
+            <when state="none" output="6"/>
             <when state="State 4" output="ƅ"/>
         </action>
         <action id="86">
-            <when state="none" output="&#x0026;"/>
+            <when state="none" output="7"/>
             <when state="State 4" output="⁊"/>
         </action>
         <action id="87">
-            <when state="none" output="8"/>
+            <when state="none" output="*"/>
             <when state="State 4" output="Ȣ"/>
         </action>
         <action id="88">
-            <when state="none" output="*"/>
+            <when state="none" output="8"/>
             <when state="State 4" output="ȣ"/>
         </action>
         <action id="89">
@@ -1879,7 +1879,7 @@
             <when state="State 4" output="ʽ"/>
         </action>
         <action id="100">
-            <when state="none" output="7"/>
+            <when state="none" output="&#x0026;"/>
         </action>
         <action id="programmer">
             <when state="none" next="programmer"/>
