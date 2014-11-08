@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>F19 to F19</name>
+		<appendix>(F19 to Hyper (ctrl+shift+cmd+opt) + F19 Only, send escape)</appendix>
+		<identifier>private.f192f19_escape</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::F19,
+			KeyCode::COMMAND_L,
+			ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::ESCAPE
+		</autogen>
+	</item>
+	  <item>
+      <name>Command</name>
+      <appendix>(D+F to COMMAND_L)</appendix>
+      <appendix>(J+K to COMMAND_R)</appendix>
+      <identifier>private.engelbart_command</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::D, KeyCode::F,@end KeyCode::COMMAND_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::J, KeyCode::K,@end KeyCode::COMMAND_R</autogen>
+    </item>
+    <item>
+      <name>Command</name>
+      <appendix>(C+V to COMMAND_L+SHIFT_L)</appendix>
+      <appendix>(M+, to COMMAND_R+SHIFT_R)</appendix>
+      <identifier>private.engelbart_command_shift</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::C, KeyCode::V,@end KeyCode::COMMAND_L, ModifierFlag::SHIFT_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::M, KeyCode::COMMA,@end KeyCode::COMMAND_R, ModifierFlag::SHIFT_R</autogen>
+    </item>
+    <item>
+      <name>Command</name>
+      <appendix>(X+C to COMMAND_L+OPTION_L)</appendix>
+      <appendix>(N+M, to COMMAND_R+OPTION_R)</appendix>
+      <identifier>private.engelbart_command_option</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::X,  KeyCode::C,@end KeyCode::COMMAND_L, ModifierFlag::OPTION_L</autogen>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::N, KeyCode::M,@end KeyCode::COMMAND_R, ModifierFlag::OPTION_R</autogen>
+    </item>
+    <item>
+      <name>Return</name>
+      <appendix>(J+I to Return)</appendix>
+      <identifier>private.engelbart_return</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::J, KeyCode::I,@end KeyCode::RETURN</autogen>
+    </item>
+    <item>
+      <name>Esc</name>
+      <appendix>(E+F to Escape)</appendix>
+      <identifier>private.engelbart_escape</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::E, KeyCode::F,@end KeyCode::ESCAPE</autogen>
+    </item>
+    <item>
+      <name>Fn</name>
+      <appendix>(E+R to FN)</appendix>
+      <identifier>private.engelbart_fn</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::E, KeyCode::R,@end KeyCode::FN</autogen>
+    </item>
+    <item>
+      <name>Fn</name>
+      <appendix>(W+E to FN+COMMAND_L)</appendix>
+      <identifier>private.engelbart_fn_command</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::W, KeyCode::E,@end KeyCode::FN, ModifierFlag::COMMAND_L</autogen>
+    </item>
+    <item>
+      <name>Fn</name>
+      <appendix>(Q+W to FN+OPTION_L)</appendix>
+      <identifier>private.engelbart_fn_option</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::Q, KeyCode::W,@end KeyCode::FN, ModifierFlag::OPTION_L</autogen>
+    </item>
+</root>
