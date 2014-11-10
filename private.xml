@@ -31,10 +31,10 @@
     <item>
       <name>Command</name>
       <appendix>(X+C to COMMAND_L+OPTION_L)</appendix>
-      <appendix>(N+M, to COMMAND_R+OPTION_R)</appendix>
+      <appendix>(COMMA+DOT, to COMMAND_R+OPTION_R)</appendix>
       <identifier>private.engelbart_command_option</identifier>
       <autogen>__SimultaneousKeyPresses__ @begin KeyCode::X,  KeyCode::C,@end KeyCode::COMMAND_L, ModifierFlag::OPTION_L</autogen>
-      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::N, KeyCode::M,@end KeyCode::COMMAND_R, ModifierFlag::OPTION_R</autogen>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::COMMA, KeyCode::DOT,@end KeyCode::COMMAND_R, ModifierFlag::OPTION_R</autogen>
     </item>
     <item>
       <name>Return</name>
