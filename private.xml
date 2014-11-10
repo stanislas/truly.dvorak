@@ -49,6 +49,18 @@
       <autogen>__SimultaneousKeyPresses__ @begin KeyCode::E, KeyCode::F,@end KeyCode::ESCAPE</autogen>
     </item>
     <item>
+      <name>Tab</name>
+      <appendix>(F+G to Tab)</appendix>
+      <identifier>private.engelbart_tab</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::F, KeyCode::G,@end KeyCode::TAB</autogen>
+    </item>
+    <item>
+      <name>Delete</name>
+      <appendix>(H+J to Delete)</appendix>
+      <identifier>private.engelbart_delete</identifier>
+      <autogen>__SimultaneousKeyPresses__ @begin KeyCode::H, KeyCode::J,@end KeyCode::DELETE</autogen>
+    </item>
+    <item>
       <name>Fn</name>
       <appendix>(E+R to FN)</appendix>
       <identifier>private.engelbart_fn</identifier>
