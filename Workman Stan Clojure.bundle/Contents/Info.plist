@@ -15,12 +15,5 @@
 		<key>TISIntendedLanguage</key>
 		<string>en-CH</string>
 	</dict>
-	<key>KLInfo_Workman Stan Clojure</key>
-	<dict>
-		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.workmanstan clojure.workmanstan dead</string>
-		<key>TISIntendedLanguage</key>
-		<string>en-CH</string>
-	</dict>
 </dict>
 </plist>

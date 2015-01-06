@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-11-14 at 23:07 (EST)-->
-<!--Last edited by Ukelele version 2.2.8 on 2014-12-20 at 17:29 (CET)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-01-06 at 10:31 (CET)-->
 <keyboard group="0" id="14777" name="Workman Stan Clojure" maxout="4">
     <layouts>
         <layout first="0" last="17" modifiers="f4" mapSet="984"/>
@@ -510,7 +510,7 @@
             <key code="46" output="["/>
             <key code="47" output="|"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="49" output=" "/>
             <key code="50" action="1"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
