@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-11-14 at 23:07 (EST)-->
-<!--Last edited by Ukelele version 2.2.8 on 2015-01-06 at 10:31 (CET)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-04-04 at 14:47 (CEST)-->
 <keyboard group="0" id="14777" name="Workman Stan Clojure" maxout="4">
     <layouts>
         <layout first="0" last="17" modifiers="f4" mapSet="984"/>
@@ -465,19 +465,19 @@
             <key code="1" action="¨"/>
             <key code="2" action="20"/>
             <key code="3" action="þ"/>
-            <key code="4" output="-"/>
-            <key code="5" output="©"/>
+            <key code="4" output="_"/>
+            <key code="5" output="go"/>
             <key code="6" action="18"/>
             <key code="7" action="15"/>
             <key code="8" action="8"/>
             <key code="9" action="5"/>
             <key code="10" output="§"/>
             <key code="11" action="9"/>
-            <key code="12" output="œ"/>
+            <key code="12" output="fn"/>
             <key code="13" output="defn"/>
             <key code="14" output="def"/>
             <key code="15" action="10"/>
-            <key code="16" output="="/>
+            <key code="16" output="let"/>
             <key code="17" action="6"/>
             <key code="18" output="¡"/>
             <key code="19" output="™"/>
@@ -492,23 +492,23 @@
             <key code="28" output="•"/>
             <key code="29" output="º"/>
             <key code="30" action="98"/>
-            <key code="31" action="13"/>
-            <key code="32" output="{"/>
+            <key code="31" output="}"/>
+            <key code="32" output="="/>
             <key code="33" action="99"/>
-            <key code="34" output="}"/>
+            <key code="34" output="{"/>
             <key code="35" output="…"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="94"/>
-            <key code="38" output="("/>
+            <key code="38" output="-"/>
             <key code="39" action="92"/>
-            <key code="40" output=")"/>
+            <key code="40" output="("/>
             <key code="41" action="21"/>
             <key code="42" output="«"/>
-            <key code="43" output="]"/>
+            <key code="43" output="["/>
             <key code="44" output="\"/>
-            <key code="45" output="+"/>
-            <key code="46" output="["/>
-            <key code="47" output="|"/>
+            <key code="45" output="|"/>
+            <key code="46" output="+"/>
+            <key code="47" output="]"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
             <key code="50" action="1"/>
@@ -1839,7 +1839,7 @@
             <when state="State 22" output="Ǿ"/>
         </action>
         <action id="94">
-            <when state="none" output="_"/>
+            <when state="none" output=")"/>
             <when state="State 22" output="ǿ"/>
         </action>
         <action id="95">
