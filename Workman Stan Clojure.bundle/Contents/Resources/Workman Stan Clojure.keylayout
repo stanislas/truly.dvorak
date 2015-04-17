@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-11-14 at 23:07 (EST)-->
-<!--Last edited by Ukelele version 2.2.8 on 2015-04-04 at 14:47 (CEST)-->
-<keyboard group="0" id="14777" name="Workman Stan Clojure" maxout="4">
+<!--Last edited by Ukelele version 2.2.8 on 2015-04-17 at 13:15 (CEST)-->
+<keyboard group="0" id="14777" name="Workman Stan Clojure" maxout="5">
     <layouts>
         <layout first="0" last="17" modifiers="f4" mapSet="984"/>
         <layout first="18" last="18" modifiers="f4" mapSet="16c"/>
@@ -466,18 +466,18 @@
             <key code="2" action="20"/>
             <key code="3" action="þ"/>
             <key code="4" output="_"/>
-            <key code="5" output="go"/>
+            <key code="5" output="(go"/>
             <key code="6" action="18"/>
             <key code="7" action="15"/>
             <key code="8" action="8"/>
             <key code="9" action="5"/>
             <key code="10" output="§"/>
             <key code="11" action="9"/>
-            <key code="12" output="fn"/>
-            <key code="13" output="defn"/>
-            <key code="14" output="def"/>
+            <key code="12" output="(fn"/>
+            <key code="13" output="(defn"/>
+            <key code="14" output="(def"/>
             <key code="15" action="10"/>
-            <key code="16" output="let"/>
+            <key code="16" output="(let"/>
             <key code="17" action="6"/>
             <key code="18" output="¡"/>
             <key code="19" output="™"/>

@@ -11,6 +11,8 @@ For MacOS X, it does the following:
 * Put all the special symbols like the brackets, etc as they are labelled on the TrulyErgonomic
 Keyboard.
 
+NEW: a workman layout for HHKB 2
+
 
 Installation
 ------------
