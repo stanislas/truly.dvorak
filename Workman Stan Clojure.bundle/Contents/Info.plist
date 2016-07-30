@@ -11,7 +11,7 @@
 	<key>KLInfo_Workman Stan Clojure</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.workmanstan clojure.workmanstan clojure</string>
+		<string>org.sil.ukelele.keyboardlayout.workmanstan clojure.workmanstanclojure</string>
 		<key>TISIntendedLanguage</key>
 		<string>en-CH</string>
 	</dict>
