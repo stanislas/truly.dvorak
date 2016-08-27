@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-11-14 at 23:07 (EST)-->
-<!--Last edited by Ukelele version 3.0.4.75 on 2016-07-30 at 16:39 (GMT+2)-->
-<keyboard group="126" id="-27417" name="Workman Stan Clojure" maxout="6">
+<!--Last edited by Ukelele version 3.0.5.81 on 2016-08-27 at 10:57 (GMT+2)-->
+<keyboard group="126" id="-27443" name="Workman Stan Clojure" maxout="6">
 	<layouts>
 		<layout first="0" last="17" mapSet="984" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="16c" modifiers="f4"/>
@@ -473,10 +473,10 @@
 			<key code="9" action="5"/>
 			<key code="10" output="§"/>
 			<key code="11" action="9"/>
-			<key code="12" output="(fn"/>
-			<key code="13" output="(defn"/>
-			<key code="14" output="(def"/>
-			<key code="15" action="10"/>
+			<key code="12" output="⟪"/>
+			<key code="13" output="⟫"/>
+			<key code="14" output="⟨"/>
+			<key code="15" output="⟩"/>
 			<key code="16" output="(let ["/>
 			<key code="17" action="6"/>
 			<key code="18" output="₁"/>
@@ -604,16 +604,16 @@
 			<key code="28" output="⁸"/>
 			<key code="29" output="⁰"/>
 			<key code="30" action="97"/>
-			<key code="31" output="̦"/>
+			<key code="31" output="》"/>
 			<key code="32" action="22"/>
 			<key code="33" output="”"/>
-			<key code="34" output="̈"/>
+			<key code="34" output="《"/>
 			<key code="35" action="16"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="93"/>
 			<key code="38" output="̃"/>
 			<key code="39" action="91"/>
-			<key code="40" output="́"/>
+			<key code="40" output="〈"/>
 			<key code="41" output="̛"/>
 			<key code="42" output="»"/>
 			<key code="43" output="„"/>
@@ -1836,7 +1836,7 @@
 			<when state="State 22" output="ǽ"/>
 		</action>
 		<action id="93">
-			<when state="none" output="Ø"/>
+			<when state="none" output="〉"/>
 			<when state="State 22" output="Ǿ"/>
 		</action>
 		<action id="94">
