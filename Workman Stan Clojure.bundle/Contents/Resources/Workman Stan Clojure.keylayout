@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-11-14 at 23:07 (EST)-->
-<!--Last edited by Ukelele version 3.0.5.81 on 2016-08-27 at 10:57 (GMT+2)-->
+<!--Last edited by Ukelele version 3.0.5.81 on 2016-08-27 at 11:00 (GMT+2)-->
 <keyboard group="126" id="-27443" name="Workman Stan Clojure" maxout="6">
 	<layouts>
 		<layout first="0" last="17" mapSet="984" modifiers="f4"/>
@@ -466,7 +466,7 @@
 			<key code="2" action="20"/>
 			<key code="3" action="þ"/>
 			<key code="4" output="_"/>
-			<key code="5" output="(go"/>
+			<key code="5" output="⁑"/>
 			<key code="6" action="18"/>
 			<key code="7" action="15"/>
 			<key code="8" action="8"/>
